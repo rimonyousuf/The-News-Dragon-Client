@@ -17,6 +17,7 @@ import LoginLayout from './Layout/LoginLayout.jsx';
 import Login from './Pages/Login/Login/Login.jsx';
 import Register from './Pages/Login/Register/Register.jsx';
 import PrivateRoute from './Routes/PrivateRoute.jsx';
+import Terms from './Pages/Shared/Terms/Terms.jsx';
 
 
 const router = createBrowserRouter([
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "register",
         element: <Register></Register>
+      },
+      {
+        path: "/terms",
+        element: <Terms></Terms>
       },
     ]
   },
